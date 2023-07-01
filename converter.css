@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+    padding: 120px 400px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    flex-direction: column;
+    padding: 50px;
+}    
+.input-cont {
+   padding: 10px;
+   font-size: 30px;
+   font-weight: 800;
+}
+.inp {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(14, 80, 223);
+    border-radius: 100px;
+}
